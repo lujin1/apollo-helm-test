@@ -19,6 +19,9 @@ This chart bootstraps an Apollo deployment on a Kubernetes cluster using the Hel
 ### Installing the Chart
 To install the chart with the release name my-release:
 ```
+helm dependency update
+```
+```
 $ helm install --name my-release .
 ```
 
